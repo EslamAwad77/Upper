@@ -31,12 +31,18 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vEd-Hq-W0z">
                                 <rect key="frame" x="87" y="520" width="240" height="128"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmO-Ig-SZX">
+                                <rect key="frame" x="182" y="813" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="lmO-Ig-SZX" firstAttribute="top" secondItem="vEd-Hq-W0z" secondAttribute="bottom" constant="165" id="3Ql-bC-tfh"/>
                             <constraint firstItem="vEd-Hq-W0z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="4Ow-vb-ioy"/>
                             <constraint firstItem="zWn-FW-af1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="186" id="Of9-IN-IoM"/>
+                            <constraint firstItem="lmO-Ig-SZX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="182" id="Ppe-B5-ekl"/>
                             <constraint firstItem="CLE-Lf-Mto" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="Pxe-Tp-ntf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CLE-Lf-Mto" secondAttribute="trailing" constant="186" id="RZp-5Q-2UG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zWn-FW-af1" secondAttribute="trailing" constant="186" id="Zag-qw-RSF"/>
@@ -44,7 +50,9 @@
                             <constraint firstItem="vEd-Hq-W0z" firstAttribute="top" secondItem="zWn-FW-af1" secondAttribute="bottom" constant="280" id="rbb-ET-uKC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vEd-Hq-W0z" secondAttribute="bottom" constant="214" id="see-to-k2D"/>
                             <constraint firstItem="zWn-FW-af1" firstAttribute="top" secondItem="CLE-Lf-Mto" secondAttribute="bottom" constant="110" id="tXW-Zz-vl7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lmO-Ig-SZX" secondAttribute="trailing" constant="186" id="tqa-xW-ytC"/>
                             <constraint firstItem="CLE-Lf-Mto" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="186" id="wTa-Bl-MQL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lmO-Ig-SZX" secondAttribute="bottom" constant="19" id="x0V-Mr-2Zw"/>
                         </constraints>
                     </view>
                 </viewController>
